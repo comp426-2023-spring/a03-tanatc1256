@@ -46,7 +46,7 @@ try {
 	console.log(JSON.stringify(rpsls(player_input)));
 }
 catch(error) {
-	console.error(player_input + "is out of range\n");
+	console.error(player_input + " is out of range\n");
 	help_message();
 	rules_message();
 }
