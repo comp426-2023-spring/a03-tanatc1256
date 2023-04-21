@@ -36,7 +36,7 @@ if (args.h || args.help) {
 	help_message();
 	process.exit(0);
 }
-else if (args.r || args.rules) {
+else if (args.r || args.rule) {
 	rules_message();
 	process.exit(0);
 }
