@@ -14,9 +14,9 @@ function help_message() {
 	console.log("");
 	console.log("Examples:");
 	console.log("  node-rpsls	Return JSON with single player RPSLS result.");
-	console.log("			e.g. {"player":"rock"}");
+	console.log("			e.g. {'player':'rock'}");
 	console.log("  node-rpsls rock	Return JSON with results for RPSLS played against a simulated opponent.");
-	console.log("			e.g. {"Player":"rock","opponent":"Spock","result":"lose"}");
+	console.log("			e.g. {'Player':'rock','opponent':'Spock','result':'lose'}");
 }
 
 function rules_message() {
