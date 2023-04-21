@@ -40,7 +40,6 @@ try {
 	console.log(JSON.stringify(rps(player_input)));
 }
 catch(error) {
-	console.error(player_input + "is out of range.\n");
 	help_message();
 	rules_message();
 }
