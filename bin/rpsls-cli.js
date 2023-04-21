@@ -1,6 +1,6 @@
 #!/usr/bin/evn node
 
-import { rpsls } from 'node-rpsls';
+import { rpsls } from './lib/rpsls.js';
 import minimist from 'minimist';
 
 const args = minimist(process.argv.slice(2));
