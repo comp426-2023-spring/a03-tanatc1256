@@ -40,9 +40,8 @@ try {
 	console.log(JSON.stringify(rps(player_input)));
 }
 catch(error) {
-	help_message();
+	//help_message();
 	rules_message();
-	process.exit(1);
 }
 
 

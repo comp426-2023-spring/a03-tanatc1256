@@ -48,6 +48,5 @@ try {
 catch(error) {
 	help_message();
 	rules_message();
-	process.exit(1);
 }
 
