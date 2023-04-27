@@ -41,7 +41,7 @@ try {
 }
 catch(error) {
 	//help_message();
-	rules_message();
+	console.log("Rules for Rock Paper Scissors");
 }
 
 
