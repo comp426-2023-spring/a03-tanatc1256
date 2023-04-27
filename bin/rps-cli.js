@@ -40,8 +40,8 @@ try {
 	console.log(JSON.stringify(rps(player_input)));
 }
 catch(error) {
-	//help_message();
-	console.log("Rules for Rock Paper Scissors");
+	help_message();
+	rules_message();
 }
 
 
